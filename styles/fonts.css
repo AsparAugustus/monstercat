@@ -42,3 +42,14 @@
 
 
 }
+
+.footerlinks {
+
+    color: white;
+    letter-spacing: 0.5px;
+    font-size: 25px;
+    font-family: 'Space Mono', monospace;
+
+    text-transform: uppercase;
+
+}
