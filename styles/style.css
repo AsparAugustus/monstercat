@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+
+    letter-spacing: 1px;
+
+    overflow-x: hidden;  
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+
+    position: relative;
+
+
+   
+}
+
+body {
+
+    background-image: url(https://cdn.monstercat.com/background-tile.webp);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    overflow-x: hidden;
+    z-position: 0; 
+
+}
+
+p {
+
+    color: purple;
+
+}
+
+
+.header {
+
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+
+
+
+
+}
+
+.hero {
+
+    display: flex;
+    width: 100vw;
+    height: 150vh;
+    
+
+}
+
+.footer {
+    display: flex;
+    width: 100vw;
+    height: 30vh;
+ 
+    
+
+}
+
+.grid-container {
+
+    display: grid;
+    grid-template-columns: 10vw 80vw 10vw;
+
+    m: 10px;
+    p: 10px;
+}
+
+.grid-container.hero {
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    m: 10px;
+    p: 10px;
+}
+
+.grid-container.belowhero {
+
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.grid-container.under {
+
+   
+    position: absolute;
+    height: 120vh;
+    width: 120vw;
+
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url("/albumcover.jpg");
+
+   
+    background-position: 90%;
+    background-blend-mode: screen;
+
+    background-clip: content-box;
+    background-origin: content-box;
+    background-size: 150%;
+
+    z-index: -1;
+
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+
+}
+
+.grid-container.first {
+    
+    background: transparent
+
+    
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.grid-tracklist {
+
+    
+    display: grid;
+    grid-template-columns: 5% 80% 10% 5%;
+    grid-template-rows: repeat(150px);
+    row-gap: 1rem;
+
+    margin-top: 4vh;
+
+
+}
+
+.track {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    font-weight: 600;
+    
+
+}
+
+.song {
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.artist {
+    font-size: 14px;
+}
+
+
+
+  
+.left-column {
+  
+}
+
+.left-column.top {
+
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-end;
+    justify-content: flex-end;
+    transform: rotate(-90deg);
+
+    margin-top: 70vh;
+}
+
+
+  
+.middle-column {
+
+   
+}
+
+.middle-column.top{
+
+ 
+}
+    
+    
+
+
+
+
+.right-column {
+   
+}
+
+.right-column.top{
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    justify-content: flex-end;
+    padding-right: 30px;
+
+
+}
+
+
+
+.right-column.top.inner{
+    
+    height: 100%;
+    display: grid;
+    grid-template-rows: 20% 80%;
+    overflow: hidden;
+
+}
+
+.right-column.inner {
+
+    display: grid;
+    grid-template-rows: repeat(150px);
+    gap: 2px;
+
+}
+
+
+
+
+.grid {
+    display: grid;
+    border-color: white;
+    border : 1px;
+}
+
+.grid-inner {
+
+    z-position: 3;
+  
+}
+
+
+
+
+/* CSS */
+
+.stream-button {
+    
+    border: 1px solid white;
+    padding-right : 10px;
+    padding-left: 10px;
+
+}
+
+.button-6 {
+  align-items: center;
+  background-color: #50a584;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+
+  letter-spacing: 1.4px;
+}
+
+.button-6:hover,
+.button-6:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.button-6:hover {
+  transform: translateY(-1px);
+}
+
+.button-6:active {
+  background-color: #F1F1F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}

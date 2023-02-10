@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'LondrinaOutline';
+    src: url('../styles/fonts/LondrinaOutline-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MonumentExtended';
+    src: url('../styles/fonts/MonumentExtended-Regular.otf') format("opentype");
+}
+
+.albumname {
+    height: 80;
+    font-family: "LondrinaOutline";
+    color: white;
+    font-size: 70px;
+    font-weight: heavy;
+    margin-top: 20vh;
+  }
+
+.artistname {
+    overflow: hidden;
+    font-size: 18px;
+    font-family: 'Space Mono', monospace;
+
+    color: white;
+    font-size: 2em;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.herotitle {
+
+    color: white;
+    letter-spacing: 2.5px;
+    font-size: 45px;
+    font-family: 'Space Mono', monospace;
+
+    text-transform: uppercase;
+
+    
+
+
+
+}
