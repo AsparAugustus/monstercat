@@ -372,7 +372,7 @@ export default function Home() {
                                 Way out news
                             </div>
                             <div style={{"color" : "white", "fontSize" : "16px", "letterSpacing" : "3px"}}>
-                                Don't miss a thing stay up to date with the latest news from us.
+                                Don&apos;t miss a thing stay up to date with the latest news from us.
                             </div>
                             <div>
                                 <div className="form-container">
